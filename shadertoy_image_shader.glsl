@@ -43,7 +43,7 @@ Github repository for this code:
 https://github.com/kaiavintr/spot_approximation
 
 Please contact Kaia Vintr with questions regarding the code via:
-- comment on the Shadertoy shader
+- comment on the Shadertoy shader here: https://www.shadertoy.com/view/t3tfD4
 - GitHub issue
 - Bluesky: https://bsky.app/profile/kaiavintr.bsky.social
 - Mastodon: https://mastodon.social/@kaiavintr
