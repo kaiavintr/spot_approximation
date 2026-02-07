@@ -1,4 +1,4 @@
-This repository contains shader code (in [spot_approximation.glsl](spot_approximation.glsl)) for an approximation of Keenan Crane's "Spot" cow model, using SDF-like functions, along with a ray-marching demo that can be viewed in Shadertoy.
+This repository contains shader code (in [spot_approximation.glsl](spot_approximation.glsl)) for an approximation of Keenan Crane's "Spot" cow model, using SDF-like functions, along with a ray-marching demo that can be viewed in Shadertoy here: https://www.shadertoy.com/view/t3tfD4
 
 ![Spot approximation raymarching demo screenshot](image.png)
 
