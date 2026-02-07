@@ -17,7 +17,7 @@ The 3D implicit surface uses "smooth min" and "smooth max" functions to blend sp
 
 For most of the texture shapes (e.g. the spots), the approximation also uses smooth min, blending unnormalized ellipse functions (this is done in 2D, using a different projection for each shape). For some shapes, functions similar to circular harmonics are used. The eyes and udder use simple ellipses.
 
-Both 2D and 3D blending use quartic splines (typical "smooth min" uses quadratic functions). This provides continuous second derivatives (as does the cubic version smin) with one extra degree of freedom that can be used to modify the shape of the blend region.
+Both 2D and 3D blending use quartic splines (typical "smooth min" uses quadratic functions). This provides continuous second derivatives (as does the cubic version of smooth min) with one extra degree of freedom that can be used to modify the shape of the blend region.
 
 # Approach
 
