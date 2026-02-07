@@ -1,12 +1,12 @@
-This repository contains shader code (in [spot_approximation.glsl]) for an approximation of Keenan Crane's "Spot" cow model, using SDF-like functions, along with a ray-marching demo that can be viewed in Shadertoy.
+This repository contains shader code (in [spot_approximation.glsl](spot_approximation.glsl)) for an approximation of Keenan Crane's "Spot" cow model, using SDF-like functions, along with a ray-marching demo that can be viewed in Shadertoy.
 
 ![Spot approximation raymarching demo screenshot](image.png)
 
-I don't know if it will be useful to anyone else, but just in case, I am making it available here under an MIT license. The demo Shadertoy code (in [shadertoy_image_shader.glsl]) is also MIT licensed, and includes two example ray marchers (basic sphere tracer and a version that overshoots and uses bisection). It also shows how to use the signed value and gradient returned by the "texture" function to antialias the edges of the texture shapes.
+I don't know if it will be useful to anyone else, but just in case, I am making it available here under an MIT license. The demo Shadertoy code (in [shadertoy_image_shader.glsl](shadertoy_image_shader.glsl)) is also MIT licensed, and includes two example ray marchers (basic sphere tracer and a version that overshoots and uses bisection). It also shows how to use the signed value and gradient returned by the "texture" function to antialias the edges of the texture shapes.
 
 By "approximation" I really mean trying to find a good balance between efficiency and looking similar to the original model, while prioritizing aesthetics (especially smoothness). The shapes are generally simpler and more rounded than the original.
 
-If you have any suggestions for improving this code or making it more useful, please open an issue here or leave a comment on the Shadertoy shader. You can also message me on [Bluesky] (https://bsky.app/profile/kaiavintr.bsky.social) or [Mastodon](https://mastodon.social/@kaiavintr).
+If you have any suggestions for improving this code or making it more useful, please open an issue here or leave a comment on the Shadertoy shader. You can also message me on [Bluesky](https://bsky.app/profile/kaiavintr.bsky.social) or [Mastodon](https://mastodon.social/@kaiavintr).
 
 The original Spot model can be found here: https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 Keenan Crane has stated that acknowledgement is appreciated but not required.
@@ -43,7 +43,7 @@ The original Spot model is public domain. My intent was to produce shapes as sim
 
 # Image comparisons
 
-Below are comparisons between the original model (left) and the approximation (right), both rendered in Blender. To do this, I generated a distorted copy of the original mesh (mapping each vertex to a nearby point on the approximation surface), and a texture produced by evaluating the texture function at points on the surface, and mapping back to the texture coordinates (the mesh and texture can be found in the [comparison] directory).
+Below are comparisons between the original model (left) and the approximation (right), both rendered in Blender. To do this, I generated a distorted copy of the original mesh (mapping each vertex to a nearby point on the approximation surface), and a texture produced by evaluating the texture function at points on the surface, and mapping back to the texture coordinates (the mesh and texture can be found in the [comparison](comparison) directory).
 
 ![Original model, front](comparison/reference_front.png) ![Approximation, front](comparison/approx_front.png)
 ![Original model, left](comparison/reference_left.png) ![Approximation, left](comparison/approx_left.png)
