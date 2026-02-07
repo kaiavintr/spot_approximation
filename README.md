@@ -45,10 +45,12 @@ The original Spot model is public domain. My intent was to produce shapes as sim
 
 Below are comparisons between the original model (left) and the approximation (right), both rendered in Blender. To do this, I generated a distorted copy of the original mesh (mapping each vertex to a nearby point on the approximation surface), and a texture produced by evaluating the texture function at points on the surface, and mapping back to the texture coordinates (the mesh and texture can be found in the [comparison](comparison) directory).
 
-![Original model, front](comparison/reference_front.png) ![Approximation, front](comparison/approx_front.png)
-![Original model, left](comparison/reference_left.png) ![Approximation, left](comparison/approx_left.png)
-![Original model, back](comparison/reference_back.png) ![Approximation, back](comparison/approx_back.png)
-![Original model, right](comparison/reference_right.png) ![Approximation, right](comparison/approx_right.png)
-![Original model, top](comparison/reference_top.png) ![Approximation, top](comparison/approx_top.png)
-![Original model, bottom](comparison/reference_bottom.png) ![Approximation, bottom](comparison/approx_bottom.png)
+. | .
+|---|---|
+|![Original model, front](comparison/reference_front.png)|![Approximation, front](comparison/approx_front.png)|
+|![Original model, left](comparison/reference_left.png)|![Approximation, left](comparison/approx_left.png)|
+|![Original model, back](comparison/reference_back.png)|![Approximation, back](comparison/approx_back.png)|
+|![Original model, right](comparison/reference_right.png)|![Approximation, right](comparison/approx_right.png)|
+|![Original model, top](comparison/reference_top.png)|![Approximation, top](comparison/approx_top.png)|
+|![Original model, bottom](comparison/reference_bottom.png)|![Approximation, bottom](comparison/approx_bottom.png)|
 
