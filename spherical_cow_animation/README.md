@@ -5,8 +5,7 @@ This shader is a modification of my earlier shader here:
 https://www.shadertoy.com/view/t3tfD4
 
 This version of the shader morphs the SDF "Spot" approximation (which is otherwise nearly the same as in the
-original shader) into a sphere. It is inspired by the animation in spot_to_sphere.mov on Crane's website
-(URL above), but it does not try to replicate that video (the shape and texture are warped in a very different way).
+original shader) into a sphere. It is inspired by the animation in spot_to_sphere.mov on [Keenan Crane's website](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/), but it does not try to replicate that video (the shape and texture are warped in a very different way).
 
 The original signed distance function has been modified so it is smoother away from the surface and takes a
 "spherize" parameter.
